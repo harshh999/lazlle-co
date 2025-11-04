@@ -18,9 +18,6 @@ export const metadata: Metadata = {
   description: "From idea to execution — we build what the future needs. Full-service digital studio delivering design, development, marketing, and consulting solutions.",
   keywords: ["Lazlle Studio", "digital studio", "web development", "design", "marketing", "consulting", "SaaS", "e-commerce"],
   authors: [{ name: "Lazlle Studio" }],
-  icons: {
-    icon: "/favicon.ico",
-  },
   openGraph: {
     title: "Lazlle Studio - Full-Service 360° Digital Studio",
     description: "From idea to execution — we build what the future needs.",
@@ -33,6 +30,9 @@ export const metadata: Metadata = {
     title: "Lazlle Studio",
     description: "From idea to execution — we build what the future needs.",
   },
+  icons: {
+    icon: "logo.png"
+  }
 };
 
 export default function RootLayout({
